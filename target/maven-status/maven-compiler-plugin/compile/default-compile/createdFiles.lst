@@ -1,0 +1,8 @@
+Perficient\PageObjects\CheckoutPage.class
+Perficient\PageObjects\ProductCatalogue.class
+Perficient\resources\ExtentReportNG.class
+Perficient\AbstractComponents\abstractComponents.class
+Perficient\PageObjects\OrderPage.class
+Perficient\PageObjects\ConfirmationPage.class
+Perficient\PageObjects\CartPage.class
+Perficient\PageObjects\LandingPage.class

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="purchase"></include>
+		</run>
+	</groups>
+  <test thread-count="5" name="Functional_Tests">
+    <classes>
+      <class name="Perficient.SeleniumFrameworkDesign.pageObject"/>
+    </classes>
+    </test>
+    
+   <test thread-count="5" name="ErrorValidation_Tests">
+	<classes>
+      <class name="Perficient.SeleniumFrameworkDesign.LoginError"/>
+    </classes>
+    </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
